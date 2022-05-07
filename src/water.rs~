@@ -1,0 +1,15 @@
+use bevy::prelude::*;
+
+pub struct _WaterPlugin;
+
+#[derive(Component)]
+pub struct Water;
+
+
+impl Plugin for WaterPlugin{
+    fn build(&self, app: &mut App){
+	
+    }
+}
+
+
